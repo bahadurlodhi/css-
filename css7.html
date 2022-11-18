@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB</title>
+    <style>
+        body {
+            background-color: darkgray
+        }
+
+        nav {
+            background-color: rgb(187, 116, 116);
+            color: rgb(241, 38, 15);
+            border-radius: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+
+        .navbar {
+            display: flex;
+            padding: 15px;
+            border-style: solid;
+            border-color: yellow;
+            border-radius: 7px;
+        }
+
+        .home {
+            background-color: yellow;
+            text-indent: 10px;
+            padding-right: 10px;
+            border-style: double;
+            border-radius: 5px;
+            border-color: black;
+            margin-right: 10px;
+        }
+
+        .content {
+            background-color: yellow;
+            text-indent: 10px;
+            border-color: black;
+            border-style: double;
+            border-radius: 5px;
+            margin-right: 10px;
+            padding-right: 10px;
+        }
+
+        .search {
+            background-color: yellow;
+            text-indent: 10px;
+            border-color: black;
+            border-style: double;
+            border-radius: 5px;
+            margin-right: 10px;
+            padding-right: 10px;
+        }
+
+        .signin {
+            background-color: yellow;
+            text-indent: 10px;
+            border-color: black;
+            border-style: double;
+            border-radius: 5px;
+            margin-right: 10px;
+            padding-right: 10px;
+        }
+
+        .login {
+            background-color: yellow;
+            border-color: black;
+            border-style: double;
+            border-radius: 5px;
+            margin-right: 10px;
+
+        }
+
+        #form {
+            background-color: rgb(152, 73, 73);
+            border-radius: 20px;
+            text-align: center;
+            text-indent: -40px;
+            padding-left: 20px;
+            margin-top: 10px;
+            margin-left: 140px;
+            margin-right: 140px;
+        }
+
+        .registration {
+            background-color: burlywood;
+            text-align: center;
+            border-style: solid;
+            box-sizing: border-box;
+            border-width: 4px;
+            border-color: rgb(220, 20, 173);
+            border-radius: 5px;
+        }
+
+        input {
+            text-indent: 10px;
+            margin-left: 20px;
+            margin-top: 10px;
+            border-radius: 10px;
+            border-width: 3px;
+            background-color: dimgray;
+            inline-size: 100px;
+        }
+
+        input::placeholder {
+            color: rgb(0, 208, 255);
+            border-style: groove;
+            border-color: chartreuse;
+            border-width: 5px;
+            border-radius: 10px;
+            opacity: 60%;
+        }
+
+        .btn {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        #submit {
+            color: white;
+            background: linear-gradient(to left, red, orange, purple, green, gray, blue, yellow, pink);
+            border-style: solid;
+            border-color: red;
+            padding-right: 10px;
+        }
+
+        #reset {
+            color: white;
+            background: linear-gradient(to left, red, orange, purple, green, gray, blue, yellow, pink);
+            border-style: solid;
+            border-color: red;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="home">Home</div>
+            <div class="content">Content</div>
+            <div class="search">Search</div>
+            <div class="signin">Sign In</div>
+            <div class="login">Login</div>
+        </div>
+    </nav>
+    <div id="form" class="registration">
+        <form action="photo.php">
+            <table>
+                <tr>
+                    <td><input type="text" placeholder="First Name"></td>
+                    <td><input type="text" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td><input type"number" placeholder="Mobile No"></td>
+                    <td><input type"number" placeholder="Tele-Phone No"></td>
+                </tr>
+            </table>
+            <div class="btn">
+                <input type="submit" id="submit" value="Submit">
+                <input type="submit" id="reset" value="Reset">
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
